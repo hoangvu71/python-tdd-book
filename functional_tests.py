@@ -1,5 +1,5 @@
 from selenium import webdriver
-import inittest
+import unittest
 
 class NewVisitorTest(unittest.TestCase):
 
@@ -39,5 +39,5 @@ class NewVisitorTest(unittest.TestCase):
 
         # Satisfied, she goes back to sleep
 
-if __name__ = '__main__':
+if __name__ == '__main__':
     unittest.main()
